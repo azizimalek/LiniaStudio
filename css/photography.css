@@ -1,0 +1,15 @@
+.center-content{
+    display: block;
+    margin: auto;
+    width: 80%;
+    
+}
+
+.panel-shadow{
+    box-shadow: 0px 0px 100px -30px grey;
+    border-radius: 10px;
+}
+
+.panel-color{
+    background-color: green;
+}
