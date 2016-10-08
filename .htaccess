@@ -1,0 +1,23 @@
+RewriteEngine on 
+# 
+## Internally rewrite extensionless file requests to .html files ## 
+# 
+# If the requested URI does not contain a period in the final path-part 
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$ 
+# and if it does not exist as a directory 
+RewriteCond %{REQUEST_FILENAME} !-d 
+# and if it does not exist as a file 
+RewriteCond %{REQUEST_FILENAME} !-f 
+# then add .html to get the actual filename 
+RewriteRule (.*) /$1.html [L] 
+# 
+# 
+## Externally redirect clients directly requesting .html page URIs to extensionless URIs 
+# 
+RewriteRule ^index\.html$ http://linia.studio/$1 [R=301,L]
+
+# If client request header contains html file extension 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+\.)+html\ HTTP 
+# externally redirect to extensionless URI 
+RewriteRule ^(.+)\.html$ http://linia.studio/$1 [R=301,L]
+
