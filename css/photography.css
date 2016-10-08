@@ -13,3 +13,14 @@
 .panel-color{
     background-color: green;
 }
+
+.text-centered{
+    text-align: center;
+}
+
+.color-jumbo{
+    background:#71D972 !important;
+    background: -webkit-linear-gradient(#71D972, 1EA67F) !important;
+    background:    -moz-linear-gradient(#71D972, 1EA67F) !important;
+    background:         linear-gradient(#71D972, 1EA67F) !important;
+}
