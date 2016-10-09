@@ -49,6 +49,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.price-cut{
+    color: firebrick;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .service-title{
     text-align: center;
     font-size: 200%
