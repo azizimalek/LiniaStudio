@@ -62,10 +62,30 @@
 }
 
 .title-color{
-    color: floralwhite;
+    color: floralwhite !important;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .center-panel{
     margin-left: auto ;
     margin-right: auto ;
+}
+
+.white-text{
+    color: floralwhite;
+}
+
+h1{
+    color: floralwhite !important;
+}
+
+.image{
+    margin: 1%;
+    box-shadow: 0px 0px 50px -10px grey !important;
+}
+
+.titled{
+    color: #1EA67F !important;
 }

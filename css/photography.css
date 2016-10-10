@@ -18,7 +18,9 @@
 }
 
 .text-centered{
-    text-align: center;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 
 .color-jumbo{
@@ -35,8 +37,8 @@
 }
 
 .btn-outline{
-    background-color: transparent;
-    color: inherit;
+    background-color: transparent !important;
+    color: white;
     transition: all .5s;
 }
 
@@ -63,4 +65,15 @@
 
 .title-color{
     color: floralwhite;
+}
+
+.quote-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.white-text{
+    color: floralwhite !important;
 }
