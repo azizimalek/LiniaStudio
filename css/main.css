@@ -191,3 +191,17 @@
   -webkit-clip-path: inset(110px 0px 0px 0px); 
           clip-path: inset(110px 0px 0px 0px); 
 }
+
+.row-space{
+    display: block;
+    margin-top: 10px;
+}
+
+.product-line{
+    display: block;
+    margin: 0px 25px 0px 25px;
+}
+
+.text-centered{
+    text-align: center;
+}
