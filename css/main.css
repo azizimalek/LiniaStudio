@@ -203,7 +203,10 @@
 }
 
 .text-centered{
-    text-align: center;
+    /*text-align: center;*/
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 
 .spacer-5{
@@ -211,7 +214,27 @@
     padding-bottom: 5%;
 }
 
+.spacer-5-top{
+    padding-top: 5%;
+}
+
+.spacer-5-bottom{
+    padding-bottom: 5%;
+}
+
 .spacer-1{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.open-font{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.line-space-30{
+    line-height: 30px;
+}
+
+.grey-out{
+    color: darkgray !important;
 }
