@@ -24,3 +24,11 @@
     margin-right: 10%;
     margin-left: 10%;
 }
+
+.grey-out{
+    color: dimgrey !important;
+}
+
+.line-space-40{
+    line-height: 40px !important;
+}
