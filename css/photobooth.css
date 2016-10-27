@@ -201,3 +201,9 @@ body {
 .gallery-color{
     background-color: #1EA67F !important;
 }
+
+.rescale{
+  width: auto;
+  height: 225px;
+  max-height: 225px;
+}

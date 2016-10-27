@@ -199,7 +199,7 @@
 
 .product-line{
     display: block;
-    margin: 0px 25px 0px 25px;
+    /*margin: 0px 25px 0px 25px;*/
 }
 
 .text-centered{
@@ -207,6 +207,10 @@
     text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
+}
+
+.text-justified{
+    text-align: justify;
 }
 
 .spacer-5{
@@ -227,6 +231,12 @@
     padding-bottom: 1%;
 }
 
+.spacer-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
 .open-font{
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -237,4 +247,19 @@
 
 .grey-out{
     color: dimgrey !important;
+}
+
+.scaled-bt{
+  width: 25px;
+  height: 25px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.icon-bt{
+    float:left;
+}
+
+.header-bt{
+    float: right;
 }
