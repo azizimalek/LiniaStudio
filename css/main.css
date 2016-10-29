@@ -209,6 +209,10 @@
     text-align-last: center;
 }
 
+.text-centered-only{
+    text-align: center;
+}
+
 .text-justified{
     text-align: justify;
 }
@@ -220,6 +224,10 @@
 
 .spacer-5-top{
     padding-top: 5%;
+}
+
+.spacer-2-top{
+    padding-top: 2%;
 }
 
 .spacer-5-bottom{
@@ -263,3 +271,12 @@
 .header-bt{
     float: right;
 }
+
+.theme-text{
+    color: #1EA67F !important;
+}
+
+.push-right{
+    padding-right: 5%;
+}
+
