@@ -32,3 +32,11 @@
 .line-space-40{
     line-height: 40px !important;
 }
+
+.open-font{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.theme-text{
+    color: #1EA67F !important;
+}

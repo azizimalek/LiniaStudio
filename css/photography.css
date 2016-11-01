@@ -64,6 +64,8 @@
 }
 
 .service-title{
+    padding-top: 1px;
+    padding-bottom: 1px;
     text-align: center;
     font-size: 200%
     
@@ -122,4 +124,16 @@
 
 .button-soften{
     border-radius: 100px;
+}
+
+.theme-text{
+    color: #1EA67F !important;
+}
+
+.open-font{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.no-outline{
+    border: none !important;
 }
