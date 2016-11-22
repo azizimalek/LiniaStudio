@@ -112,7 +112,7 @@
     width: 100%;
 }
 .button-outline {
-    background-color: #1EA67F;
+    background: rgba(54, 25, 25,0);
     color: white;
     border: 2px solid white;
 }
@@ -136,4 +136,39 @@
 
 .no-outline{
     border: none !important;
+}
+
+body .image-jumbo-wedding{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("http://i.imgur.com/LWHS5Pr.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body .image-jumbo-grad{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("http://i.imgur.com/0KEx1ZD.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image-jumbo-event{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("http://i.imgur.com/0kKbxTg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image-jumbo-product{
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("http://i.imgur.com/UcnnnS5.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.image-jumbo-corporate{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("http://i.imgur.com/DDYXqbn.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.spacer-jumbotron{
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
